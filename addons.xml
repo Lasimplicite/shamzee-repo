@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.ait"
+       name="AIT Live"
+       version="1.0"
+       provider-name="TerrorKeed">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">African Independent Television Nigeria addon</summary>
+    <description lang="en">Live stream addon of Africa Independent Television</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.shamzee" name="Shamzee's Repo" version="1.0" provider-name="TerrorKeed">
+	<extension point="xbmc.addon.repository" name="HELLO Addon Repository">
+		<info compressed="false">http://github.com/TerrorKeed/shamzee-repo/raw/master/addons.xml</info>
+		<checksum>http://github.com/TerrorKeed/shamzee-repo/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://github.com/TerrorKeed/shamzee-repo/raw/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>My official addons repo for Kodi/XBMC</summary>
+		<description>Download and install addons from TerrorKeed</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
