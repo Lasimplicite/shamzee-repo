@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.shamzee.release" name="Shamzee's add-on Repository" version="0.1.0" provider-name="tknorris">
+    <extension point="xbmc.addon.repository" name="shamzee add-on repository">
+        <info compressed="false"></info>
+        <checksum></checksum>
+        <datadir zip="true">/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Shamzee's repo for official releases.</summary>
+        <description>Home of all Shamzee addons.
+        </description>
+        <platform>all</platform>
+    </extension>
+</addon>
