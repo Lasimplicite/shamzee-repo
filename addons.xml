@@ -18,6 +18,25 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.silverbirdtv"
+       name="SilverbirdTV"
+       version="0.0.1"
+       provider-name="TerrorKeed">
+  <requires>
+   <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Silverbird TV Nigeria</summary>
+    <description lang="en">Watch SilverbirdTV via XBMC/Kodi</description>
+    <platform>all</platform>
+	<language>en</language>
+	<email>TerrorKeed@gmail.com</email>
+  </extension>
+</addon>
+
 <addon id="repository.shamzee" name="Shamzee's Repo" version="1.0" provider-name="TerrorKeed">
 	<extension point="xbmc.addon.repository" name="HELLO Addon Repository">
 		<info compressed="false">http://github.com/TerrorKeed/shamzee-repo/raw/master/addons.xml</info>
